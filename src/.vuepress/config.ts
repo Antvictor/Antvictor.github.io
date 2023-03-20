@@ -12,8 +12,8 @@ export default defineUserConfig({
     // },
     "/": {
       lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "Antvictor",
+      description: "一个开源的Java博客",
     },
   },
 
