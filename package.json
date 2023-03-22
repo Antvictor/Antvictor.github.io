@@ -4,7 +4,7 @@
   "description": "Java blogs",
   "license": "MIT",
   "type": "module",
-  "author":"Antvictor",
+  "author": "Antvictor",
   "scripts": {
     "docs:build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
@@ -13,8 +13,11 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.61",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.61",
+    "@vuepress/plugin-search": "^2.0.0-beta.61",
     "vue": "^3.2.47",
     "vuepress": "2.0.0-beta.61",
+    "vuepress-plugin-search-pro": "^2.0.0-beta.196",
     "vuepress-theme-hope": "2.0.0-beta.195"
   }
 }
