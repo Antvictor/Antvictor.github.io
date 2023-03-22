@@ -11,9 +11,11 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "文章",
+      text: "博文",
       icon: "note",
-      prefix: "posts/",
+      prefix: "blogs/",
+      link: "blogs/",
+      // link: "blogs/",
       children: "structure",
     },
     "intro",
