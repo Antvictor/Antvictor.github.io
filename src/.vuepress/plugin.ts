@@ -18,6 +18,10 @@ docsearchPlugin({
     placeholder:"搜索文章",
     // 打开弹窗时的初始请求
     initialQuery:"",
+    translations:{button: {
+        buttonText: '搜索文章',
+      },
+    },
     //允许替换 DocSearch 按钮和弹窗内的默认文字。
     // translations:"",
   }),
