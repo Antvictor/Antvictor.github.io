@@ -4,3 +4,6 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 package-lock.json
+.gitignore
+src/blogs/.obsidian
+src/blogs/模版
