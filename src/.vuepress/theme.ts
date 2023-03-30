@@ -22,7 +22,7 @@ export default hopeTheme({
  
 
   docsDir: "src",
-
+ // pure: true,
  
   blog: {
     medias: {
@@ -59,6 +59,8 @@ export default hopeTheme({
       // Zhihu: "https://example.com",
       Antvictor: ["https://blog.exceedy.top", MR_HOPE_AVATAR],
     },
+    avatar:"/logo.svg",
+    roundAvatar:true,
   },
 
   locales: {
