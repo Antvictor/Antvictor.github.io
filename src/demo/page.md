@@ -9,6 +9,7 @@ order: 1
 author: Ms.Hope
 # 设置写作时间
 date: 2020-01-01
+article: false
 # 一个页面可以有多个分类
 category:
   - 使用指南
