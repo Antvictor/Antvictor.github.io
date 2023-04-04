@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title: 自我介绍
+title: 目录
 # 这是页面的图标
 icon: page
 # 这是侧边栏的顺序
@@ -24,6 +24,4 @@ footer:
 # 你可以自定义版权信息
 copyright: 
 ---
-
-## 自我介绍
-[名字](../intro.md)
+[第一篇博客](helloworld.md)

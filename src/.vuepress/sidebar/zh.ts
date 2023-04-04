@@ -15,8 +15,31 @@ export const zhSidebar = sidebar({
       icon: "note",
       prefix: "blogs/",
       link: "blogs/",
+      collapsible: true,
       // link: "blogs/",
-      children: "structure",
+      children: [
+        "helloworld",
+        {
+          text:"Java",
+          prefix:"Java/",
+          collapsible: true,
+          children:[
+            {
+              text:"基础",
+              prefix:"基础/",
+              collapsible: true,
+              children:"structure"
+            },
+            {
+              text:"nacos",
+              prefix:"nacos/",
+              collapsible: true,
+              children:"structure"
+            }
+            
+          ]
+        }
+      ],
     },
     "intro",
     "slides",
