@@ -13,7 +13,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   logo: "/cat.svg",
-  favicon: '/cat.svg'
+  favicon: '/cat.svg',
   repo: "Antvictor/Antvictor.github.io",
 
   docsDir: "src",
