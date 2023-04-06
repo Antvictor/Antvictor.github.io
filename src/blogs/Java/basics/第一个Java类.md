@@ -32,7 +32,7 @@ prev: ./什么是对象.md
 next:
 ---
 要写一个类很简单，只要将上一篇的例子找个文本编辑器写一遍，另存为`.java`即可，然而要想真正创建并启动，则需要配置一下环境。
-## 环境配置
+# 环境配置
 在[JDK下载地址](https://www.oracle.com/cn/java/technologies/javase/javase8u211-later-archive-downloads.html) 中选择适合你的安装包，因为使用的是JDK8，所以下载地址放的是JDK8的路径，想安装其他版本可在此选择[所有版本](https://www.oracle.com/cn/java/technologies/downloads/archive/)
 
 ::: tabs#home
@@ -66,7 +66,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
 
 ![安装成功](https://img.exceedy.top/img/20230331102000.png)
 
-## IDE
+# IDE
 工欲善其事，必先利其器。
 首先选择一个开发工具，如果想要开发项目则无论什么电脑都推荐`Intellij idea`,当然，`idea`收费，神通广大的网友是"**不会**"给你盗版的哦，免费工具推荐使用`Eclipse`。而我们现在学习只需要一些简单的工具即可。
 ::: tabs#home
@@ -76,7 +76,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
 推荐使用 Nodepade++
 :::
 
-## 开发
+# 开发
 那么现在进入我们的开发阶段。
 首先打开我们的开发工具，新建名称为`Hello`的文件，格式为`.java`，在Java中文件名要与类名保持一致，且命名规范要求单词首字母大写，多个单词则拼接在一起。如`HelloWorld`。 这种命名规范叫**驼峰式**。
 ```java
@@ -88,7 +88,7 @@ class Hello{
 	}
 }
 ```
-## 运行
+# 运行
 依旧打开我们的终端，使用`javac`编译我们的Java文件，记得要进入到`Hello.java`同目录下。
 ```shell
 javac Hello.java

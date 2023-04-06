@@ -17,28 +17,36 @@ export default hopeTheme({
   repo: "Antvictor/Antvictor.github.io",
 
   docsDir: "src",
-   // pure:true,
-  locales: {
-    /**
-     * Chinese locale config
-     */
-    "/": {
-      // navbar
-      navbar: zhNavbar,
 
-      // sidebar
-      sidebar: zhSidebar,
+  // navbar
+  navbar: zhNavbar,
 
-      footer: "默认页脚",
+  // sidebar
+  sidebar: zhSidebar,
 
-      displayFooter: true,
-      // rtl: true,
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
+  footer: "welcome",
+
+  displayFooter: true,
+  // rtl: true,
+  // page meta
+  metaLocales: {
+    editLink: "在 GitHub 上编辑此页",
   },
+
+  blog: {
+      medias: {
+        BiliBili: "https://space.bilibili.com/324770884",
+        Email: "antvictor@163.com",
+        // Gitee: "https://example.com",
+        GitHub: "https://github.com/Antvictor",
+        Gmail: "larryyangc@example.com",
+        Antvictor: ["https://blog.exceedy.top"],
+      },
+      avatar:"/cat.svg",
+      roundAvatar:true,
+    },
+
+
 
   encrypt: {
     config: {
@@ -47,6 +55,9 @@ export default hopeTheme({
   },
 
   plugins: {
+        blog: {
+            excerptLength: 200,
+          },
       comment: {
           // @ts-expect-error: You should generate and use your own comment service
           provider: "Giscus",

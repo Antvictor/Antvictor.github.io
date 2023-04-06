@@ -2,6 +2,7 @@
 title: Nacos
 order: 2
 index: false
+article: false
 ---
 
 ## 目录
