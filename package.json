@@ -9,12 +9,14 @@
     "docs:build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
-    "docs:update-package": "yarn dlx vp-update"
+    "docs:update-package": "yarn dlx vp-update",
+    "test": "jest"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.61",
     "@vuepress/plugin-docsearch": "^2.0.0-beta.61",
     "@vuepress/plugin-search": "^2.0.0-beta.61",
+    "jest": "^29.5.0",
     "vue": "^3.2.47",
     "vuepress": "2.0.0-beta.61",
     "vuepress-plugin-search-pro": "^2.0.0-beta.196",

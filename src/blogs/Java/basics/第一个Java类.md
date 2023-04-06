@@ -1,8 +1,8 @@
 ---
 # 这是文章的标题
-title: 第一个Java类
+title: 第一个类
 # 这是页面的图标
-icon: Java
+icon: 
 # 这是侧边栏的顺序
 order: 2
 # 设置作者

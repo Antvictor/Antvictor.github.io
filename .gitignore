@@ -7,3 +7,4 @@ package-lock.json
 .gitignore
 src/blogs/.obsidian
 src/blogs/模版
+pnpm-lock.yaml
