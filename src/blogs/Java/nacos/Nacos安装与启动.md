@@ -11,10 +11,10 @@ author: Antvictor
 date: 2023-04-04
 # 一个页面可以有多个分类
 category:
-  - Nacos
+  - 分布式
 # 一个页面可以有多个标签
 tag:
-  - 分布式
+  - Nacos
 # 此页面会在文章列表置顶
 # sticky: true
 
@@ -29,7 +29,7 @@ tag:
 # 定义上一篇
 prev: 
 # 下一篇
-next:
+next: [Nacos]
 ---
 ## 预备环境
 要具备jdk8+、maven3.2+的环境。
