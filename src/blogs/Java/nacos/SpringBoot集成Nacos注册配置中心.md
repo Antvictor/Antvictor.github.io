@@ -4,7 +4,7 @@ title:  Nacos+SpringBoot注册配置中心
 # 这是页面的图标
 icon: 
 # 这是侧边栏的顺序
-order: 
+order: 2
 # 设置作者
 author: Antvictor
 # 设置写作时间
@@ -27,7 +27,7 @@ tag:
 # 你可以自定义版权信息
 # copyright: 
 # 定义上一篇
-prev: 
+prev: ./Nacos安装与启动.md
 # 下一篇
 next:
 ---

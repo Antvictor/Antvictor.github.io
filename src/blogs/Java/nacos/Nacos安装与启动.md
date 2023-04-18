@@ -4,7 +4,7 @@ title: Nacos安装与启动
 # 这是页面的图标
 icon: nacos
 # 这是侧边栏的顺序
-order: 
+order: 1
 # 设置作者
 author: Antvictor
 # 设置写作时间
@@ -29,7 +29,7 @@ tag:
 # 定义上一篇
 prev: 
 # 下一篇
-next: [Nacos]
+next: ./SpringBoot集成Nacos注册配置中心.md
 ---
 ## 预备环境
 要具备jdk8+、maven3.2+的环境。
