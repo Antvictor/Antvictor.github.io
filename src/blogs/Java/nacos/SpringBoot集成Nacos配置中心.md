@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title:  Nacos+SpringBoot注册配置中心
+title:  Nacos+SpringBoot配置中心
 # 这是页面的图标
 icon: 
 # 这是侧边栏的顺序
@@ -29,7 +29,7 @@ tag:
 # 定义上一篇
 prev: ./Nacos安装与启动.md
 # 下一篇
-next:
+next: ./SpringBoot集成Nacos注册中心.md
 ---
 
 ## 集成

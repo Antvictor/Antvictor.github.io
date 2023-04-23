@@ -29,7 +29,7 @@ tag:
 # 定义上一篇
 prev: 
 # 下一篇
-next: ./SpringBoot集成Nacos注册配置中心.md
+next: ./SpringBoot集成Nacos配置中心.md
 ---
 ## 预备环境
 要具备jdk8+、maven3.2+的环境。
