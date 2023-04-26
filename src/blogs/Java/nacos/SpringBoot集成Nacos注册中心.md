@@ -1,10 +1,10 @@
 ---
 # 这是文章的标题
-title:  Nacos+SpringBoot注册中心
+title:  SpringBoot+Nacos注册中心
 # 这是页面的图标
 icon: 
 # 这是侧边栏的顺序
-order: 2
+order: 3
 # 设置作者
 author: Antvictor
 # 设置写作时间
@@ -29,7 +29,7 @@ tag:
 # 定义上一篇
 prev: ./SpringBoot集成Nacos配置中心.md
 # 下一篇
-next:
+next: ./SpringCloud集成Nacos配置中心
 ---
 ## 引入依赖
 使用注册中心，和配置中心相同，需要引入一个新的依赖
@@ -90,7 +90,7 @@ nacos.discovery.register.metadata.username=test
 ## 服务发现
 新建一个module，然后引入相同的`discovery`依赖。
 然后写一个`controller`类,获取全部实例
-```Java
+```java
 @RestController
 @RequestMapper("consumer")
 public class TestController{

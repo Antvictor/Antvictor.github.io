@@ -1,6 +1,6 @@
 ---
 # 这是文章的标题
-title:  Nacos+SpringBoot配置中心
+title:  SpringBoot+Nacos配置中心
 # 这是页面的图标
 icon: 
 # 这是侧边栏的顺序
@@ -62,7 +62,7 @@ public class Application{
 }
 ```
 写一个Controller类，使用`@NacosValue(value=${test}, autoR=true)`.可以动态修改值。
-```Java
+``` java
 @RestController
 @RequestMapper("/config")
 public class TestController{
