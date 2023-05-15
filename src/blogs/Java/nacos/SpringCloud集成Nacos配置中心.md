@@ -29,7 +29,7 @@ tag:
 # 定义上一篇
 prev: ./SpringBoot集成Nacos注册中心.md
 # 下一篇
-next:
+next: ./SpringCloud集成Nacos注册中心.md
 ---
 # 版本选择
 版本选择最新的版本`2022.0.0.0-RC1`，学一样的新的东西最好直接学最新版。
