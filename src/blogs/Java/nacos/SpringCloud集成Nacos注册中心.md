@@ -103,25 +103,28 @@ public class TestController {
 同样新建一个`SpringBoot module`, 复制相同的依赖和配置， 然后将配置中的`port`改为`8085`， 服务名改为`service-consumer`，同样需要在启动类上加入`@EnableDiscoveryClient`.
 同时需要在`pom`中额外引入以下依赖:
 ```xml
-   <!--openfeign-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>4.0.0</version>
-        </dependency>
 
-        <!--todo sentinel need to support GraalVM in future-->
-        <!--<dependency>
-             <groupId>com.alibaba.cloud</groupId>
-             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-         </dependency>-->
+<dependencies>
+    <!--openfeign-->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-openfeign</artifactId>
+        <version>4.0.0</version>
+    </dependency>
 
-        <!--负载均衡-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
-            <version>4.0.0</version>
-        </dependency>
+    <!--todo sentinel need to support GraalVM in future-->
+    <!--<dependency>
+         <groupId>com.alibaba.cloud</groupId>
+         <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+     </dependency>-->
+
+    <!--负载均衡-->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        <version>4.0.0</version>
+    </dependency>
+</dependencies>
 ```
 一定要引入，不然`SpringBoot`的`RestTemplate`只能使用`http://ip:port`请求，不支持`http://服务名`请求.
 ## 进行`RestTemplate`配置
