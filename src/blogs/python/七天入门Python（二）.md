@@ -1,3 +1,4 @@
+
 ---
 # 这是文章的标题
 title: 七天入门Python（二）安装开发工具及编写函数
@@ -29,7 +30,7 @@ tag:
 # 定义上一篇
 prev: 七天入门Python（一）.md
 # 下一篇
-next:
+next: 七天入门Python（三）.md
 ---
 # 七天入门Python（二）
 大家好，我是Antvictor，一个励志要成为博学程序员的程序员。
@@ -45,18 +46,18 @@ next:
 	"cmd" = ["python3", "-u", "$file"]
 }
 ```
-保存为`Python3.sublime-build`. 然后点击`Tools->Build System->Python3`，如果没有者重启会点击。
+保存为`Python3.sublime-build`. 然后点击`Tools->Build System->Python3`，如果没有则需要重启后点击。
 ## 运行
 新建一个文件，保存为`hello_world.py`，文件类型必须为`py`，在文件中输入：
 ```python
 print("hello world")
 ```
-使用`Tools->Build`或`command+B`(win 使用ctrl+B), 运行后可以在`sublime text`的下方看到输出结果即为成功。
+使用`Tools->Build`或`command+B`(win 使用`ctrl+B`), 运行后可以在`sublime text`的下方看到输出结果即为成功。
 
 # 函数
 工具也安装了，想必有些小伙伴会对一直出现的`print`产生浓浓的好奇心，这是什么？为什么总是出现？<br>
 `print`的作用在上一篇中已经提到了，他是Python提供的**函数**，作用是输出括号中的内容到控制台、终端等可以显示输出结果的地方。当我们需要在这些地方输出结果时就需要用到这个函数。<br>
-这里我们提到了**函数**，那么函数是什么呢？函数就是将一些逻辑代码放在一起，可以直接通过**函数名**使用，不需要再重复编写相同的代码，就像`print`一样方便。那么怎么编写一个函数呢？<br>
+这里我们提到了**函数**，那么函数是什么呢？函数就是将一些逻辑代码放在一起，可以直接通过**函数名**使用, 让开发者不需要再重复编写相同的代码，就像`print`一样方便。那么怎么编写一个函数呢？<br>
 函数的格式是固定的：
 ```python
 def function(argument): 

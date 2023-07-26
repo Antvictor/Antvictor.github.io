@@ -37,7 +37,7 @@ next:
 
 ::: tabs#home
 @tab Mac
-![image.png](https://img.exceedy.top/img/20230331093134.png)
+![image.png](https://img.codejourney.top/img/20230331093134.png)
 选择该版本后下载安装，根据安装器提示一步步安装即可，安装完成后，文件在
 `/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk`下，
 此时打开终端，使用命令`vim .bash_profile`查看`.bash_profile`中是否有如下配置，没有则需要配置
@@ -64,7 +64,7 @@ Java(TM) SE Runtime Environment (build 1.8.0_221-b11)
 Java HotSpot(TM) 64-Bit Server VM (build 25.221-b11, mixed mode)
 ```
 
-![安装成功](https://img.exceedy.top/img/20230331102000.png)
+![安装成功](https://img.codejourney.top/img/20230331102000.png)
 
 # IDE
 工欲善其事，必先利其器。
@@ -94,7 +94,7 @@ class Hello{
 javac Hello.java
 ```
 运行通过后，会得到一个同名的`.class`文件。
-![编译成功](https://img.exceedy.top/img/20230331102908.png)
+![编译成功](https://img.codejourney.top/img/20230331102908.png)
 
 这时我们运行：`java Hello`，便会打印我们传入的**Hello world!**.
 ```shell
@@ -103,6 +103,6 @@ java Hello
 Hello world!
 ```
 
-![运行成功](https://img.exceedy.top/img/20230331103021.png)
+![运行成功](https://img.codejourney.top/img/20230331103021.png)
 
 至此我们成功创建并运行了第一个Java类。

@@ -35,7 +35,7 @@ next:
 在一开始，依旧要开启Nacos服务，如已开启则忽略，未开启则根据[Nacos安装与启动](./Nacos安装与启动.md)安装并启动
 # 服务发现
 利用服务注册中心，进行服务之间的调用和管理。
-![image.png](https://img.exceedy.top/img/20230421142231.png)
+![image.png](https://img.codejourney.top/img/20230421142231.png)
 因为无论是提供者还是消费者都需要进行服务注册，所以服务注册的步骤单独写一下
 # 服务注册
 ## 引入依赖
@@ -95,9 +95,9 @@ public class TestController {
 配置步骤使用服务注册中的步骤。
 
 查看nacos服务是否有注册成功的服务
-![image.png](https://img.exceedy.top/img/20230423104020.png)
+![image.png](https://img.codejourney.top/img/20230423104020.png)
 测试连接是否有效：
-![image.png](https://img.exceedy.top/img/20230423104108.png)
+![image.png](https://img.codejourney.top/img/20230423104108.png)
 测试服务提供者无误后，我们开始搭建服务消费者
 # 服务消费者
 同样新建一个`SpringBoot module`, 复制相同的依赖和配置， 然后将配置中的`port`改为`8085`， 服务名改为`service-consumer`，同样需要在启动类上加入`@EnableDiscoveryClient`.
@@ -160,9 +160,9 @@ public class TestController {
 ```
 ## 查询服务注册并测试
 首先查询服务注册是否成功
-![image.png](https://img.exceedy.top/img/20230423110911.png)
+![image.png](https://img.codejourney.top/img/20230423110911.png)
 请求测试
-![image.png](https://img.exceedy.top/img/20230423110935.png)
+![image.png](https://img.codejourney.top/img/20230423110935.png)
 可以看到请求成功了，返回的结果是服务提供者返回的数据。至此大功告成
 # 结语
 进行服务消费者搭建的时候，不去看官方demo依旧会踩坑，大多数坑来自于官方文档依赖引入。有些已经被移除的依赖文档中不会告诉你引入，但是demo里面引入了...

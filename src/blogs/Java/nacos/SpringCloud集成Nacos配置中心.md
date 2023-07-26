@@ -95,19 +95,19 @@ public class ConfigController {
 测试步骤与上一篇SpringBoot的配置一样，需要注意的就是配置时使用的`dataId`需要按上述的规则使用。
 首次查看，显示默认数据：
 
-![image.png](https://img.exceedy.top/img/20230420142433.png)
+![image.png](https://img.codejourney.top/img/20230420142433.png)
 
 根据规则配置dataId
 
-![image.png](https://img.exceedy.top/img/20230420142823.png)
+![image.png](https://img.codejourney.top/img/20230420142823.png)
 
 发布后测试：
 
-![image.png](https://img.exceedy.top/img/20230420142845.png)
+![image.png](https://img.codejourney.top/img/20230420142845.png)
 
 成功！！再次修改，将`Antvictor1`改为`Antvictor`发布：
 
-![image.png](https://img.exceedy.top/img/20230420142946.png)
+![image.png](https://img.codejourney.top/img/20230420142946.png)
 
 动态更新成功！
 ## 结语

@@ -81,16 +81,16 @@ public class TestController{
 @tab Nacos界面
 首先请求本地项目地址，查看test值
 
-![初始请求.png](https://img.exceedy.top/img/20230404095024.png)
+![初始请求.png](https://img.codejourney.top/img/20230404095024.png)
 
 然后打开Nacos页面`localhost:8848/nacos` 登录后进行配置。
 配置管理->配置列表->创建配置
 
-![image.png](https://img.exceedy.top/img/20230404095155.png)
+![image.png](https://img.codejourney.top/img/20230404095155.png)
 
 点击发布后刷新本地项目请求，查看test值
 
-![image.png](https://img.exceedy.top/img/20230404095249.png)
+![image.png](https://img.codejourney.top/img/20230404095249.png)
 
 发生变化，说明配置生效
 @tab OpenAPI
@@ -105,7 +105,7 @@ curl -d 'dataId=test' \
 
 查看本地连接一样发生修改。
 
-![image.png](https://img.exceedy.top/img/20230404095756.png)
+![image.png](https://img.codejourney.top/img/20230404095756.png)
 :::
 
 至此一个简单的配置管理中心就完成了。较为复杂的配置：如MySql配置等，测试时发现和SpringBoot配合的不是很好。

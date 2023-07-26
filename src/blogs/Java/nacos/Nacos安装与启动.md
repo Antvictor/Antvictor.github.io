@@ -75,7 +75,7 @@ cd distribution/target/nacos-server-$version/nacos/bin
 ## 登录
 启动后，打开`localhost:8848/nacos`登录，账号密码默认均为`nacos`。
 进入后为启动成功。
-![image.png](https://img.exceedy.top/img/20230404104745.png)
+![image.png](https://img.codejourney.top/img/20230404104745.png)
 
 
 

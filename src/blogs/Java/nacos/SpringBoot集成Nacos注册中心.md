@@ -80,10 +80,10 @@ nacos.discovery.register.metadata.username=test
 ```
 ## 验证
 打开Nacos本地地址，登录后点击**服务管理**->**服务列表**， 可以看到我们注册的服务。
-![image.png](https://img.exceedy.top/img/20230413113936.png)
+![image.png](https://img.codejourney.top/img/20230413113936.png)
 
 点击详情后可以看到配置的`metadata`
-![image.png](https://img.exceedy.top/img/20230413114024.png)
+![image.png](https://img.codejourney.top/img/20230413114024.png)
 这样，我们就完成了一个服务注册，是不是很简单呢，只是引入了一个依赖，配置了两行代码即完成了一次服务注册。
 
 那么接下来就是进行服务发现了，只有服务发现并成功调用了，才能算全部跑通。
@@ -105,7 +105,7 @@ public class TestController{
 }
 ```
 浏览器请求得到如下结果：
-![image.png](https://img.exceedy.top/img/20230413171720.png)
+![image.png](https://img.codejourney.top/img/20230413171720.png)
 
 格式如下：
 ```json

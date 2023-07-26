@@ -37,7 +37,7 @@ next: 七天入门Python（二）.md
 # Python安装
 从[Python官网](https://www.Python.org/)找到**Download**下载对应的安装包，python3.6及以上即可。
 
-![image-20230609110610987](https://img.exceedy.top/img/20230609110611.png)
+![image-20230609110610987](https://img.codejourney.top/img/20230609110611.png)
 
 
 
