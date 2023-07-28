@@ -79,3 +79,5 @@ footer: welcome
 
 不要感觉太多，可以慢慢来，这会是一个短则3-5年，长则5-10年的计划。
 小步前进方能制胜，只要不断前进，困难便会迎刃而解，伴随着不断的学习，脚步也会越来越快。
+## 开源
+博客相关代码均会开源在Github中, 项目地址：[blog-source](https://github.com/Antvictor/blog-source)
