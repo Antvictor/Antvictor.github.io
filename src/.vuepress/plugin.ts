@@ -7,11 +7,14 @@ export default([
     // docSearch
 docsearchPlugin({
     // 从 DocSearch 团队收到的 apiKey
-    apiKey:"0d931a2ea9e3aabba44aa2879e46fb02",
+//     apiKey:"0d931a2ea9e3aabba44aa2879e46fb02",
+    apiKey:"2ad9c44dac085b6540c9494f5e3f4b73",
     // 从DocSearch团队收到的indexName
-    indexName:"exceedytop",
+//     indexName:"exceedytop",
+    indexName:"codejourney",
     // docSearch的AppId
-    appId:"8MU38TRSDV",
+//     appId:"8MU38TRSDV",
+    appId:"XPJAGLDOMG",
     // 搜索类型
     // searchParameters:"query",
     // 搜索框默认字段
