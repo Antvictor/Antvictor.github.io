@@ -32,7 +32,7 @@ prev:
 next: 七天入门Python（二）.md
 ---
 # 七天入门Python（一）
-大家好，我是Antvictor，一个励志要成为博学程序员的程序员。<br>
+大家好，我是Antvictor，一个励志要成为架构师的程序员。<br>
 闲话少说，接下来请和我一起进入《七天入门Python》，首先是Python安装。
 # Python安装
 从[Python官网](https://www.Python.org/)找到**Download**下载对应的安装包，python3.6及以上即可。
