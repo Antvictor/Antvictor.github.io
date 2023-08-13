@@ -29,7 +29,7 @@ tag:
 # 定义上一篇
 prev: 七天入门Python（二）.md
 # 下一篇
-next: 
+next: 七天入门Python（四）.md
 ---
 # 七天入门Python（三）
 大家好，我是Antvictor，一个励志要成为架构师的程序员。
