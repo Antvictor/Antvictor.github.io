@@ -9,7 +9,7 @@ category:
 tags: 
 - Python
 prev: 七天入门Python（五）.md
-next:
+next: 七天入门Python（七）.md
 ---
 
 
